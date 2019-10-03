@@ -1,0 +1,30 @@
+/* body { 
+    background-color: rebeccapurple;
+}
+h1 {
+    border-style: ridge;
+    margin: 10px;
+    border-color: gold;
+    align-content: center;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gold;
+ } */
+
+ .nav {
+     display: flex;
+     list-style: none;
+     justify-content: space-around;
+     flex-direction: row-reverse;
+ }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.animal {
+    flex-basis: 25%;
+    
+}
+img {
+    width: 50px;
+}
